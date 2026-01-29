@@ -1,0 +1,46 @@
+﻿{
+  "AddLanguageInput": {
+    "Language": "English",
+    "Level": "Basic"
+  },
+  "DuplicateLanguageInput": {
+    "Language": "English",
+    "Level": "Basic"
+  },
+  "InvalidLanguageInput": {
+    "Language": "12345",
+    "Level": "Basic"
+  },
+  "UpdateLanguageInput": {
+    "Language": "English",
+    "Level": "Fluent",
+    "UpdatedLanguage": "French",
+    "UpdatedLevel": "Conversational"
+  },
+  "UpdateLanguageInvalidInput": {
+    "Language": "English",
+    "Level": "Fluent",
+    "UpdatedLanguage": "H%$%^$$#",
+    "UpdatedLevel": "Fluent"
+  },
+  "UpdateLanguageDestructiveInput": {
+    "Language": "English",
+    "Level": "Fluent",
+    "UpdatedLanguage": " A.PadRight(5000, 'A')",
+    "UpdatedLevel": "Fluent"
+  },
+
+
+  "DeleteLanguageInput": {
+    "Language": "English",
+    "Level": "Conversational"
+  },
+  "DeleteNonExistingLanguageInput": {
+    "Language": "Spanish",
+    "Level": "Conversational"
+  },
+  "DestructiveLanguageInput": {
+    "Language": "<script>alert('XSS')</script>,<img src=x,onerror=alert(1)>",
+    "Level": "Basic"
+  }
+}
