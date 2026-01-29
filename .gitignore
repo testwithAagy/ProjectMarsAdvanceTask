@@ -1,0 +1,11 @@
+# Ignore build output folders anywhere
+**/bin/
+**/obj/
+
+# Visual Studio temporary files
+.vs/
+*.user
+*.suo
+
+# Test execution results
+TestResults/
