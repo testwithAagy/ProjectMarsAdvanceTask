@@ -1,0 +1,66 @@
+﻿{
+  "SearchSkill_ValidKeyword": {
+    "Keyword": "Automation"
+  },
+  "SearchSkill_PartialKeyword": {
+    "PartialKeyword": "Auto",
+    "ExpectedResultContains": "Automation"
+  },
+  "SearchSkill_InvalidKeyword": {
+    "Keyword": "@@@@"
+  },
+  "SearchSkill_CaseInsensitive": {
+    "KeywordUpper": "AUTOMATION",
+    "KeywordLower": "automation"
+  },
+  "SearchSkill_TrimmedKeyword": {
+    "Keyword": "  Au tomation  ",
+    "ExpectedResultContains": "Automation"
+  },
+  "SearchSkill_FilterByMainCategory": {
+    "MainCategory": "Test Automation",
+    "ExpectedResultContains": "Automation"
+  },
+  "SearchSkill_FilterBySubCategory": {
+    "MainCategory": "Test Automation",
+    "SubCategory": "Selenium",
+    "ExpectedResultContains": "Automation"
+  },
+  "SearchSkill_AllCategories": {
+    "ExpectedMinimumResults": 1
+  },
+  "SearchSkill_OnlineFilter": {
+    "ExpectedMinimumResults": 1
+  },
+  "SearchSkill_OnsiteFilter": {
+    "ExpectedMinimumResults": 1
+  },
+  "SearchSkill_ShowAllFilter": {
+    "ExpectedMinimumResults": 1
+  },
+  "SearchSkill_NoMatchingKeyword": {
+    "Keyword": "xyz123",
+    "ExpectedMessage": "No results found, please select a new category!"
+  },
+  "SearchSkill_SpecialCharactersOnly": {
+    "Keyword": "&^&%$%$",
+    "ExpectedMessage": "No results found, please select a new category!"
+  },
+  "SearchSkill_XSSInjectionAttempt": {
+    "Keyword": "<script>alert(1)</script>",
+    "ExpectedMessage": "No results found, please select a new category!"
+  },
+  "SearchSkill_HugePayload": {
+    "PayloadLength": 5000,
+    "ExpectedMessage": "No results found, please select a new category!"
+  }
+
+
+
+
+
+
+
+
+
+}

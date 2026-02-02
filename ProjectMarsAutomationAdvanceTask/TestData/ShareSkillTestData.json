@@ -1,0 +1,110 @@
+﻿{
+  "AddValidShareSkill": {
+    "Title": "Web Automation Testing",
+    "Description": "I provide Selenium automated testing services.",
+    "Category": "Test Automation",
+    "SubCategory": "Selenium",
+    "Tags": "Selenium",
+    "ServiceType": "One-off service",
+    "LocationType": "On-site",
+    "SkillTradeType": "Credit",
+    "SkillTradeValue": "8",
+    "WorkSampleFile": "C:\\Users\\aagya\\OneDrive\\Desktop\\Sample\\Resume_Aagy.pdf",
+    "ActiveStatus": "Active"
+
+  },
+
+  "AddShareSkillMandatoryFields": {
+    "Title": "Basic QA Help",
+    "Description": "QA testing support",
+    "Category": "Test Automation",
+    "SubCategory": "Selenium",
+    "Tags": "qa",
+    "ServiceType": "Hourly basis service",
+    "LocationType": "Online",
+    "SkillTradeType": "Skill-exchange",
+    "SkillTradeValue": "Testing",
+    "ActiveStatus": "Active"
+  },
+
+  "ShareSkillMaxTtileLengthData": {
+    "Title": "Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help,",
+    "Description": "QA testing support",
+    "Category": "Test Automation",
+    "SubCategory": "Selenium",
+    "Tags": "qa",
+    "ServiceType": "Hourly basis service",
+    "LocationType": "Online",
+    "SkillTradeType": "Skill-exchange",
+    "SkillTradeValue": "Testing",
+    "ActiveStatus": "Active"
+  },
+  "ShareSkillMaxDescriptionLengthData": {
+    "Title": "QA",
+    "Description": "Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help Basic QA Help,"
+  },
+
+  "AddShareSkillInvalidTitleInput": {
+    "Title": "^%^$%^$%#",
+    "Description": "QA testing support",
+    "Category": "Test Automation",
+    "SubCategory": "Selenium",
+    "Tags": "qa",
+    "ServiceType": "Hourly basis service",
+    "LocationType": "Online",
+    "SkillTradeType": "Skill-exchange",
+    "SkillTradeValue": "Testing",
+    "ActiveStatus": "Active"
+  },
+
+  "AddShareSkillInvalidDescriptionInput": {
+    "Title": "Automation",
+    "Description": "A%^$%^#$%#",
+    "Category": "Test Automation",
+    "SubCategory": "Selenium",
+    "Tags": "qa",
+    "ServiceType": "Hourly basis service",
+    "LocationType": "Online",
+    "SkillTradeType": "Skill-exchange",
+    "SkillTradeValue": "Testing",
+    "ActiveStatus": "Active"
+  },
+  
+    "DestructiveInputTest": {
+      "Title": "<script>alert('XSS')</script>",
+      "Description": "DROP TABLE Users; --",
+      "Tags": "<img src=x onerror=alert(1)>",
+      "Category": "Programming",
+      "SubCategory": "Web Development",
+      "ServiceType": "Hourly",
+      "LocationType": "Online",
+      "SkillTradeType": "Skill-Exchange",
+      "SkillTradeValue": "Testing",
+      "ActiveStatus": "Active"
+    },
+  
+
+  "AddCalendarEvent": {
+    "Title": "Basic QA Help",
+    "Description": "QA testing support",
+    "Category": "Test Automation",
+    "SubCategory": "Selenium",
+    "Tags": "qa",
+    "ServiceType": "Hourly basis service",
+    "LocationType": "Online",
+    "SkillTradeType": "Skill-exchange",
+    "SkillTradeValue": "Testing",
+    "ActiveStatus": "Active",
+    "CalendarEvent": {
+      "Title": "Test Event 1",
+      "Start": "2026-01-20 10:00",
+      "End": "2026-01-20 12:00",
+      "AllDay": "True",
+      "Repeat": "Never",
+      "Description": "Event description",
+      "Owner": "Alex"
+    }
+  }
+
+
+}

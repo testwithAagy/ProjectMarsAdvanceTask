@@ -1,0 +1,14 @@
+﻿{
+  "Browser": {
+    "Type": "Chrome",
+    "Headless": false,
+    "TimeoutSeconds": 10
+  },
+  "Environment": {
+    "BaseUrl": "http://localhost:5003"
+  },
+  "Report": {
+    "Path": "Reports/",
+    "Title": "Project Mars Automation Report"
+  }
+}
